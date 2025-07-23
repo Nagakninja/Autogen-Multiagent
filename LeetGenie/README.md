@@ -9,11 +9,6 @@ LeetGenie is an AI-powered DSA (Data Structures and Algorithms) problem-solving 
 
 ---
 
-![LeetGenie Screenshot](https://user-images.githubusercontent.com/your-username/leetgenie-demo.png)
-
-*Screenshot: Example of LeetGenie solving a DSA problem in the Streamlit web app.*
-
----
 
 ## Project Structure
 
