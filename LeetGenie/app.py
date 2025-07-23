@@ -11,7 +11,7 @@ import asyncio
 st.title("LeetGenie -  DSA Problem Solver")
 st.write("Welcome to LeetGenie, your personal DSA problem solver! Here you can ask solutions to various data structures and algorithms problems.")
 
-task = st.text_input("Enter your DSA problem or question:",value='Write a function to add two numbers')
+task = st.text_area("Enter your DSA problem or question:",value='Write a function to add two numbers')
 
 async def run(team,docker,task):
     try:
