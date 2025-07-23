@@ -6,3 +6,5 @@ dotenv
 openai
 tiktoken
 autogen-ext[docker]
+streamlit
+autogen-agentchat[streamlit]
