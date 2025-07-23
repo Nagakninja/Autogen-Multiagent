@@ -5,8 +5,8 @@ from autogen_ext.models.openai import OpenAIChatCompletionClient
 from config.constant import MODEL
 
 load_dotenv()
-# api_key = os.getenv('OPENAI_API_KEY')
-api_key = os.getenv('GOOGLE_API_KEY')
+api_key = os.getenv('OPENAI_API_KEY')
+# api_key = os.getenv('GOOGLE_API_KEY')
 
 
 def get_model_client():
