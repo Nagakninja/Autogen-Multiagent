@@ -1,6 +1,6 @@
-MODEL = 'gpt-4o'
+# MODEL = 'gpt-4o'
 
-# MODEL = 'gemini-2.5-pro'
+MODEL = 'gemini-2.5-pro'
 TEXT_MENTION = 'STOP'
 WORK_DIR = 'temp'
 TIMEOUT = 120
