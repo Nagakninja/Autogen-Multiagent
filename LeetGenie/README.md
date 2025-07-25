@@ -74,7 +74,7 @@ LeetGenie/
 4. **Set up environment variables**
    - Create a `.env` file in the root directory:
      ```env
-     OPENAI_API_KEY=your_openai_api_key_here
+     GOOGLE_API_KEY=your_api_key_here
      ```
 
 ## Running the Application
@@ -126,12 +126,12 @@ If your code has a bug or fails a test case, LeetGenie will display the error an
 
 ## Notes
 - Requires Docker to be installed and running on your system for code execution.
-- Supports OpenAI models (e.g., `gpt-4o`).
+- Supports OpenAI models (e.g., `gemini-2.5-pro`).
 - All code is executed in a sandboxed Docker container for safety.
 
 ## Troubleshooting
 - **Docker not running:** Make sure Docker Desktop is running before starting the app.
-- **API key errors:** Ensure your `.env` file contains a valid `OPENAI_API_KEY`.
+- **API key errors:** Ensure your `.env` file contains a valid `GOOGLE_API_KEY`.
 - **Module errors:** Double-check your Python environment and installed dependencies.
 
 ## License
